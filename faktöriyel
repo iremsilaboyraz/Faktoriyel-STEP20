@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Faktoriyel {
+    public static void main(String[] args){
+        int n;
+        Scanner input=new Scanner(System.in);
+        System.out.printf("Faktöriyel sayısını giriniz:");
+        n=input.nextInt();
+
+        int total=1;
+
+        for (int a= 1;a <= n; a++){
+
+            total=total*a;
+
+    }
+        System.out.println(n+" sayısının faktöriyeli:"+total);
+    }
+}
